@@ -34,28 +34,79 @@ class Solution(object):
         :rtype: bool
         """
 
-        for i in range(len(flowerbed)):
-            if i - 1 > -1:
-                if flowerbed[i - 1] == 0:
-                    if flowerbed[i] == 0:
-                        if i + 1 < len(flowerbed):
-                            if flowerbed[i + 1] == 0:
-                                n -= 1
-                                flowerbed[i] = 1
-                        else:
-                            n -= 1
-                            flowerbed[i] = 1
-            else:
-                if flowerbed[i] == 0:
-                    if i + 1 < len(flowerbed):
-                        if flowerbed[i + 1] == 0:
-                            n -= 1
-                            flowerbed[i] = 1
-                    else:
-                        n -= 1
-                        flowerbed[i] = 1
-                else:
+        # for i in range(len(flowerbed)):
+        #     if i - 1 > -1:
+        #         if flowerbed[i - 1] == 0:
+        #             if flowerbed[i] == 0:
+        #                 if i + 1 < len(flowerbed):
+        #                     if flowerbed[i + 1] == 0:
+        #                         n -= 1
+        #                         flowerbed[i] = 1
+        #                 else:
+        #                     n -= 1
+        #                     flowerbed[i] = 1
+        #     else:
+        #         if flowerbed[i] == 0:
+        #             if i + 1 < len(flowerbed):
+        #                 if flowerbed[i + 1] == 0:
+        #                     n -= 1
+        #                     flowerbed[i] = 1
+        #             else:
+        #                 n -= 1
+        #                 flowerbed[i] = 1
+        #         else:
+        #
+        #     if n < 1:
+        #         break
+        # return True
 
-            if n < 1:
-                break
-        return True
+        # arr = self.countNotEmpty(flowerbed)
+        # removed_count = self.possibleMax(arr)
+        #
+        # if removed_count >= n:
+        #     return True
+        # else:
+        #     return False
+
+        count = 0
+        for i in range(len(flowerbed)):
+            if (flowerbed[i] == 0 and
+                    (i == 0 or flowerbed[i - 1] == 0) and
+                    (i == len(flowerbed) - 1 or flowerbed[i + 1] == 0)):
+                flowerbed[i] = 1
+                count += 1
+                if count >= n:
+                    return True
+        return count >= n
+
+    # def countNotEmpty(self, flowerbed):
+    #     arr = []
+    #     for i in range(len(flowerbed)):
+    #         if flowerbed[i] == 0:
+    #             arr.append(i)
+    #     return arr
+    #
+    # def possibleMax(self, arr):
+    #     # slot = []
+    #     print("original arr:", arr)
+    #     count = 0
+    #     for i in range(1, len(arr)):
+    #         print("Checking index:", i)
+    #         print("arr in for-loop:", arr)
+    #         if i + 1 < len(arr):
+    #             if arr[i] - 1 == arr[i - 1] and arr[i] + 1 == arr[i + 1]:
+    #
+    #                 # slot.append(arr[i])
+    #                 arr.remove(i)
+    #                 print(f"arr after removed index {i}:", arr)
+    #                 count += 1
+    #     return count
+
+flowerbed_str = input("Enter the flowerbed array (e.g., [1,0,0,0,0,1]): ")
+flowerbed = eval(flowerbed_str)   # converts string "[1,0,0,0,1]" → [1,0,0,0,1]
+
+n = int(input("Enter the number of flowers to plant: "))
+
+sol = Solution()
+result = sol.canPlaceFlowers(flowerbed, n)
+print("Result:", result)
