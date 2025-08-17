@@ -23,6 +23,7 @@
 # flowerbed[i] is 0 or 1.
 # There are no two adjacent flowers in flowerbed.
 # 0 <= n <= flowerbed.length
+from Easy.reverseVowels import SolutionreverseVowels
 
 
 class Solution(object):
@@ -102,11 +103,17 @@ class Solution(object):
     #                 count += 1
     #     return count
 
-flowerbed_str = input("Enter the flowerbed array (e.g., [1,0,0,0,0,1]): ")
-flowerbed = eval(flowerbed_str)   # converts string "[1,0,0,0,1]" → [1,0,0,0,1]
+# 605
+# flowerbed_str = input("Enter the flowerbed array (e.g., [1,0,0,0,0,1]): ")
+# flowerbed = eval(flowerbed_str)   # converts string "[1,0,0,0,1]" → [1,0,0,0,1]
+# n = int(input("Enter the number of flowers to plant: "))
 
-n = int(input("Enter the number of flowers to plant: "))
+# 345
+s_str = input("Enter the word to reverse: ")
 
-sol = Solution()
-result = sol.canPlaceFlowers(flowerbed, n)
+# sol = Solution()
+# result = sol.canPlaceFlowers(flowerbed, n)
+
+sol = SolutionreverseVowels()
+result = sol.reverseVowels(s_str)
 print("Result:", result)
