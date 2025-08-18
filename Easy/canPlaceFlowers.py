@@ -109,11 +109,11 @@ class Solution(object):
 # n = int(input("Enter the number of flowers to plant: "))
 
 # 345
-s_str = input("Enter the word to reverse: ")
+# s_str = input("Enter the word to reverse: ")
 
 # sol = Solution()
 # result = sol.canPlaceFlowers(flowerbed, n)
 
-sol = SolutionreverseVowels()
-result = sol.reverseVowels(s_str)
-print("Result:", result)
+# sol = SolutionreverseVowels()
+# result = sol.reverseVowels(s_str)
+# print("Result:", result)
