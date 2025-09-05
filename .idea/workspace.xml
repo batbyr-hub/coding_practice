@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25fec1b6-76a4-495d-9dc5-7c7950740a78" name="Changes" comment="Rename file.">
-      <change afterPath="$PROJECT_DIR$/leetcode-solutions/Introduction_to_Pandas/p2879selectFirstRows.py" afterDir="false" />
+    <list default="true" id="25fec1b6-76a4-495d-9dc5-7c7950740a78" name="Changes" comment="New problem solved and accepted.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,7 @@
       <workItem from="1756830633708" duration="674000" />
       <workItem from="1756872238960" duration="17061000" />
       <workItem from="1756993791416" duration="1494000" />
-      <workItem from="1757037799000" duration="315000" />
+      <workItem from="1757037799000" duration="4137000" />
     </task>
     <task id="LOCAL-00001" summary="Organized structure and Created a new folder that Introduction to Pandas from Leetcode which is another study plan. Also first problem solved.">
       <option name="closed" value="true" />
@@ -241,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757038000945</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New problem solved and accepted.">
+      <option name="closed" value="true" />
+      <created>1757038351401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757038351401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +261,8 @@
     </ignored-roots>
     <MESSAGE value="Organized structure and Created a new folder that Introduction to Pandas from Leetcode which is another study plan. Also first problem solved." />
     <MESSAGE value="Rename file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename file." />
+    <MESSAGE value="New problem solved and accepted." />
+    <option name="LAST_COMMIT_MESSAGE" value="New problem solved and accepted." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$canPlaceFlowers.coverage" NAME="canPlaceFlowers Coverage Results" MODIFIED="1754320763619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode-solutions/Easy" />
