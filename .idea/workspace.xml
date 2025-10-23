@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cf78ad2-de47-47cb-8fff-d647bca94048" name="Changes" comment="1. Created a new folder Medium and moved input for use only one place, just import function.&#10;2. Solved #151 problem Reverse Words in a String and accepted on leetcode." />
+    <list default="true" id="8cf78ad2-de47-47cb-8fff-d647bca94048" name="Changes" comment="1. Created a new folder Medium and moved input for use only one place, just import function.&#10;2. Solved #151 problem Reverse Words in a String and accepted on leetcode.">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +32,12 @@
     &quot;assignee&quot;: &quot;batbyr-hub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/batbyr-hub/leetcode.git&quot;,
-    &quot;accountId&quot;: &quot;df680514-bce4-489e-9673-39455cd938ec&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/batbyr-hub/leetcode-solutions.git",
+    "accountId": "de67f1b8-ce13-4bfe-a371-e70bc2bd8a98"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -41,31 +46,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Leetcode75.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.canPlaceFlowers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cisco exam.executor&quot;: &quot;Run&quot;,
-    &quot;Python.leetcode-solutions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mergeAlternately.executor&quot;: &quot;Run&quot;,
-    &quot;Python.micro1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.p2877createDataframe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/batuu/OneDrive/Documents/Self-employed/leetcode/coding-assessments&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Leetcode75.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.canPlaceFlowers.executor": "Run",
+    "Python.cisco exam.executor": "Run",
+    "Python.leetcode-solutions.executor": "Run",
+    "Python.mergeAlternately.executor": "Run",
+    "Python.micro1.executor": "Run",
+    "Python.p2877createDataframe.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/batuu/PycharmProjects/leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\coding-assessments" />
@@ -187,14 +193,14 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25fec1b6-76a4-495d-9dc5-7c7950740a78" name="Changes" comment="" />
+      <changelist id="8cf78ad2-de47-47cb-8fff-d647bca94048" name="Changes" comment="1. Created a new folder Medium and moved input for use only one place, just import function.&#10;2. Solved #151 problem Reverse Words in a String and accepted on leetcode." />
       <created>1748236111692</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -227,6 +233,8 @@
       <workItem from="1757448638895" duration="979000" />
       <workItem from="1757820602704" duration="1479000" />
       <workItem from="1759083895774" duration="1514000" />
+      <workItem from="1761247312003" duration="5000" />
+      <workItem from="1761247387342" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Organized structure and Created a new folder that Introduction to Pandas from Leetcode which is another study plan. Also first problem solved.">
       <option name="closed" value="true" />
