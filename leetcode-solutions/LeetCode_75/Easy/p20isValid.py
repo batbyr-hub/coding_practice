@@ -53,9 +53,6 @@ class Solution(object):
         :rtype: bool
         """
 
-        print(s)
-        print(s[0])
-
         if s[0] == ')' or s[0] == ']' or s[0] == '}':
             return False
         else:
@@ -64,11 +61,6 @@ class Solution(object):
                 if s[i] == '(':
                     stack.append(s[i])
                 if s[i] == ')':
-                    # stacktmp = stack.copy()
-                    # if stacktmp.pop() == '(':
-                    #     stack.pop()
-                    # else:
-                    #     return False
                     if not stack:
                         return False
                     top = stack.pop()
@@ -91,10 +83,8 @@ class Solution(object):
                     if top != '{':
                         return False
 
-
             stack = ''.join(stack)
-            print("stack: " + str(stack))
+            # print("stack: " + str(stack))
             if len(stack) == 0:
                 return True
             return False
-
