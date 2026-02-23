@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-<<<<<<< HEAD
-    <option name="sdkName" value="Python 3.13" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13" project-jdk-type="Python SDK" />
-=======
     <option name="sdkName" value="Python 3.12 (leetcode)" />
   </component>
-  <component name="PythonCompatibilityInspectionAdvertiser">
-    <option name="version" value="3" />
-  </component>
->>>>>>> 74a31c13e3b11c74e405ea8d58b3d11a72ea0365
 </project>

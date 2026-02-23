@@ -4,342 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25fec1b6-76a4-495d-9dc5-7c7950740a78" name="Changes" comment="Added a new section on the NeetCode platform problems.">
-      <change afterPath="$PROJECT_DIR$/neetcode-solutions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neetcode-solutions/containsDuplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neetcode-solutions/groupAnagrams.py" afterDir="false" />
+    <list default="true" id="0209b74a-5e40-4994-97b4-b0f137bcf871" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neetcode-solutions/NeetCode150.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode-solutions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-solutions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-solutions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neetcode-solutions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/neetcode-solutions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neetcode-solutions/containsDuplicate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neetcode-solutions/groupAnagrams.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;batbyr-hub&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "batbyr-hub"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/batbyr-hub/leetcode.git&quot;,
-    &quot;accountId&quot;: &quot;df680514-bce4-489e-9673-39455cd938ec&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/batbyr-hub/leetcode.git",
+    "accountId": "df680514-bce4-489e-9673-39455cd938ec"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2xcSx6gflH4WAcKGv4I6b1fZXHf" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3A2Ab8OLNrsrCMhDD6jfAdYzDWQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Leetcode75.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.canPlaceFlowers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cisco exam.executor&quot;: &quot;Run&quot;,
-    &quot;Python.containsDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.leetcode-solutions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mergeAlternately.executor&quot;: &quot;Run&quot;,
-    &quot;Python.micro1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.p2877createDataframe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/batuu/OneDrive/Documents/Self-employed/leetcode/neetcode-solutions&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.__init__.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\neetcode-solutions" />
-      <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\coding-assessments" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode" />
-      <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\coding-assessments" />
-      <recent name="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\leetcode-solutions\LeetCode_75" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.leetcode-solutions">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding-assessments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-assessments/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="containsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neetcode-solutions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neetcode-solutions/containsDuplicate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leetcode-solutions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\leetcode-solutions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-solutions/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="micro1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding-assessments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding-assessments/micro1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="p2877createDataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-solutions/Introduction_to_Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-solutions/Introduction_to_Pandas/p2877createDataframe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.containsDuplicate" />
-      <item itemvalue="Python.leetcode-solutions" />
-      <item itemvalue="Python.micro1" />
-      <item itemvalue="Python.p2877createDataframe" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.leetcode-solutions" />
-        <item itemvalue="Python.containsDuplicate" />
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.micro1" />
-        <item itemvalue="Python.p2877createDataframe" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
-        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25fec1b6-76a4-495d-9dc5-7c7950740a78" name="Changes" comment="" />
-      <created>1748236111692</created>
+      <changelist id="0209b74a-5e40-4994-97b4-b0f137bcf871" name="Changes" comment="" />
+      <created>1771780361002</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748236111692</updated>
-      <workItem from="1748236112723" duration="1869000" />
-      <workItem from="1748317790802" duration="5262000" />
-      <workItem from="1748466970845" duration="3221000" />
-      <workItem from="1748826481614" duration="3718000" />
-      <workItem from="1748888940377" duration="6256000" />
-      <workItem from="1748912728189" duration="3645000" />
-      <workItem from="1749101347684" duration="56000" />
-      <workItem from="1749522773350" duration="884000" />
-      <workItem from="1753933919484" duration="2330000" />
-      <workItem from="1754098632842" duration="1205000" />
-      <workItem from="1754182428218" duration="4450000" />
-      <workItem from="1754263375379" duration="1743000" />
-      <workItem from="1754320474617" duration="325000" />
-      <workItem from="1755707031941" duration="79000" />
-      <workItem from="1755707168313" duration="5377000" />
-      <workItem from="1756325623123" duration="2862000" />
-      <workItem from="1756652465469" duration="599000" />
-      <workItem from="1756653115176" duration="9465000" />
-      <workItem from="1756691021593" duration="624000" />
-      <workItem from="1756830633708" duration="674000" />
-      <workItem from="1756872238960" duration="17061000" />
-      <workItem from="1756993791416" duration="1494000" />
-      <workItem from="1757037799000" duration="5431000" />
-      <workItem from="1757362615990" duration="2308000" />
-      <workItem from="1757382403943" duration="5258000" />
-      <workItem from="1757448638895" duration="979000" />
-      <workItem from="1757820602704" duration="1479000" />
-      <workItem from="1759083895774" duration="1514000" />
-      <workItem from="1761184307651" duration="2027000" />
-      <workItem from="1761313935693" duration="30000" />
-      <workItem from="1770010577104" duration="657000" />
-      <workItem from="1770011292096" duration="28000" />
-      <workItem from="1770063044492" duration="3223000" />
-      <workItem from="1770916408741" duration="112000" />
-      <workItem from="1770916562142" duration="7580000" />
-      <workItem from="1771275423191" duration="3993000" />
-      <workItem from="1771294337102" duration="11452000" />
+      <updated>1771780361002</updated>
+      <workItem from="1771780362705" duration="19288000" />
     </task>
-    <task id="LOCAL-00001" summary="Organized structure and Created a new folder that Introduction to Pandas from Leetcode which is another study plan. Also first problem solved.">
-      <option name="closed" value="true" />
-      <created>1756661839766</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1756661839766</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Rename file.">
-      <option name="closed" value="true" />
-      <created>1757038000945</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1757038000945</updated>
-    </task>
-    <task id="LOCAL-00003" summary="New problem solved and accepted.">
-      <option name="closed" value="true" />
-      <created>1757038351401</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1757038351401</updated>
-    </task>
-    <task id="LOCAL-00004" summary="xAI assessment and other.">
-      <option name="closed" value="true" />
-      <created>1761184392447</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1761184392447</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/leetcode-solutions" />
-    </ignored-roots>
-    <MESSAGE value="Organized structure and Created a new folder that Introduction to Pandas from Leetcode which is another study plan. Also first problem solved." />
-    <MESSAGE value="Rename file." />
-    <MESSAGE value="New problem solved and accepted." />
-    <MESSAGE value="xAI assessment and other." />
-    <option name="LAST_COMMIT_MESSAGE" value="xAI assessment and other." />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$p2877createDataframe.coverage" NAME="p2877createDataframe Coverage Results" MODIFIED="1756661408723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode-solutions/Introduction_to_Pandas" />
-    <SUITE FILE_PATH="coverage/leetcode$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1757391024636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding-assessments" />
-    <SUITE FILE_PATH="coverage/leetcode$micro1.coverage" NAME="micro1 Coverage Results" MODIFIED="1756667241622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding-assessments" />
-    <SUITE FILE_PATH="coverage/leetcode$cisco_exam.coverage" NAME="cisco exam Coverage Results" MODIFIED="1748894964279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$Leetcode75.coverage" NAME="Leetcode75 Coverage Results" MODIFIED="1753934001354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$leetcode_solutions.coverage" NAME="leetcode-solutions Coverage Results" MODIFIED="1771304371356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\batuu\OneDrive\Documents\Self-employed\leetcode\leetcode-solutions" />
-    <SUITE FILE_PATH="coverage/leetcode$containsDuplicate.coverage" NAME="containsDuplicate Coverage Results" MODIFIED="1771275951583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neetcode-solutions" />
-    <SUITE FILE_PATH="coverage/leetcode$mergeAlternately.coverage" NAME="mergeAlternately Coverage Results" MODIFIED="1753935077618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode-solutions/Easy" />
-    <SUITE FILE_PATH="coverage/leetcode$canPlaceFlowers.coverage" NAME="canPlaceFlowers Coverage Results" MODIFIED="1754320763619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode-solutions/Easy" />
+    <SUITE FILE_PATH="coverage/leetcode$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1771880415567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neetcode-solutions" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

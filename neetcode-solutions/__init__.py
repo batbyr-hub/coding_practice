@@ -1,8 +1,9 @@
-
-from .containsDuplicate import Solution
+from NeetCode150 import Solution
 
 inp = input("Enter: ")
 sol = Solution()
-listo = list(int(inp))
-result = sol.hasduplicateeee(listo)
+listo = inp
+# print(listo)
+# result = sol.hasDuplicate(listo)
+result = sol.isPalindrome(listo)
 print("Result:", result)
