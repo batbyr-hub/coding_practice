@@ -1,9 +1,110 @@
 from typing import List
 
-
 class Solution:
 
     # Easy
+
+    # Score of a String
+    def scoreOfString(self, s: str) -> int:
+        i = 0
+        res = 0
+        while i != len(s) - 1:
+            res += abs(ord(s[i]) - ord(s[i + 1]))
+            i += 1
+        return res
+
+    # Concatenation of Array
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return nums * 2
+
+    # Contains Duplicate
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        duplicate = False
+        for i in range(len(nums) - 1):
+            for j in range(i + 1, len(nums), 1):
+                if nums[i] == nums[j]:
+                    duplicate = True
+        if not duplicate:
+            return False
+        else:
+            return True
+
+    # Valid Anagram
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        else:
+            # A brute force solution
+            # new_s = list(s)
+            # new_s.sort()
+            # new_s = str(new_s)
+            # new_t = list(t)
+            # new_t.sort()
+            # new_t = str(new_t)
+            # for i in range(len(new_s)):
+            #     if new_s[i] != new_t[i]:
+            #         return False
+            # return True
+
+            # O(1) solution
+            for i in range(len(s)):
+                if not t.find(s[i], i, len(s)):
+                    return False
+            return True
+
+    # Replace Elements With Greatest Element On Right Side
+    def replaceElements(self, arr: List[int]) -> List[int]:
+        j = 1
+        res = []
+        while len(arr) != j:
+            greatest = max(arr[j:len(arr)])
+            res.append(greatest)
+            j += 1
+        res.append(-1)
+        return res
+
+    # Is Subsequence
+    def isSubsequence(self, s: str, t: str) -> bool:
+        res = []
+        for char in s:
+            if char in t:
+                print(t.index(char))
+                print(t[t.index(char)])
+                res.append(t[t.index(char)])
+        print(s)
+        print("".join(res))
+        return True if s == "".join(res) else False
+
+    # Two Sum
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        res = []
+        for i in range(len(nums) - 1):
+            for j in range(i + 1, len(nums), 1):
+                if nums[i] + nums[j] == target and i != j:
+                    res.append(i)
+                    res.append(j)
+        return list(res)
+
+    # Valid Palindrome
+    def isPalindrome(self, s: str) -> bool:
+        chars = []
+        for char in s:
+            if char.isalnum():
+                chars.append(char.lower())
+        new_s = "".join(chars)
+        half = len(new_s) // 2
+
+        first_half_s = new_s[:half]
+        if len(new_s) % 2 != 0:
+            second_half_s = new_s[half + 1:]
+        else:
+            second_half_s = new_s[half:]
+
+        second_half_s = second_half_s[::-1]
+        if first_half_s == second_half_s:
+            return True
+        else:
+            return False
 
     # Valid Parentheses
     def isValid(self, s: str) -> bool:
@@ -68,73 +169,6 @@ class Solution:
         print("len ARR")
         print(len(arr) == 0)
         return len(arr) == 0
-
-    # Valid Palindrome
-    def isPalindrome(self, s: str) -> bool:
-        chars = []
-        for char in s:
-            if char.isalnum():
-                chars.append(char.lower())
-        new_s = "".join(chars)
-        half = len(new_s) // 2
-
-        first_half_s = new_s[:half]
-        if len(new_s) % 2 != 0:
-            second_half_s = new_s[half + 1:]
-        else:
-            second_half_s = new_s[half:]
-
-        second_half_s = second_half_s[::-1]
-        if first_half_s == second_half_s:
-            return True
-        else:
-            return False
-
-
-    # Contains Duplicate
-    def hasDuplicate(self, nums: List[int]) -> bool:
-        duplicate = False
-        for i in range(len(nums) - 1):
-            for j in range(i + 1, len(nums), 1):
-                if nums[i] == nums[j]:
-                    duplicate = True
-        if not duplicate:
-            return False
-        else:
-            return True
-
-    # Valid Anagram
-    def isAnagram(self, s: str, t: str) -> bool:
-        if len(s) != len(t):
-            return False
-        else:
-            # A brute force solution
-            # new_s = list(s)
-            # new_s.sort()
-            # new_s = str(new_s)
-            # new_t = list(t)
-            # new_t.sort()
-            # new_t = str(new_t)
-            # for i in range(len(new_s)):
-            #     if new_s[i] != new_t[i]:
-            #         return False
-            # return True
-
-            # O(1) solution
-            for i in range(len(s)):
-                if not t.find(s[i], i, len(s)):
-                    return False
-            return True
-
-    # Two Sum
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        res = []
-        for i in range(len(nums) - 1):
-            for j in range(i + 1, len(nums), 1):
-                if nums[i] + nums[j] == target and i != j:
-                    res.append(i)
-                    res.append(j)
-        return list(res)
 
     # Medium
 
