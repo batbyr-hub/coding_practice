@@ -65,15 +65,33 @@ class Solution:
 
     # Is Subsequence
     def isSubsequence(self, s: str, t: str) -> bool:
+        i, j = 0, 0
+
+        while i < len(s) and j < len(t):
+            if s[i] == t[j]:
+                i += 1  # Only move s pointer if we find a match
+            j += 1  # Always move t pointer
+
+        return i == len(s)
+
+    # Length Of Last Word
+    def lengthOfLastWord(self, s: str) -> int:
+        arr = s.split(' ')
         res = []
-        for char in s:
-            if char in t:
-                print(t.index(char))
-                print(t[t.index(char)])
-                res.append(t[t.index(char)])
-        print(s)
-        print("".join(res))
-        return True if s == "".join(res) else False
+        for word in arr:
+            if word != '':
+                res.append(word.strip())
+        last_word = res[len(res) - 1]
+        return len("".join(last_word))
+
+    # Number of Senior Citizens
+    def countSeniors(self, details: List[str]) -> int:
+        count = 0
+        for i in range(len(details)):
+            passenger = details[i]
+            if int(passenger[11:13]) > 60:
+                count += 1
+        return count
 
     # Two Sum
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -84,6 +102,9 @@ class Solution:
                     res.append(i)
                     res.append(j)
         return list(res)
+
+    # Max Consecutive Ones
+
 
     # Valid Palindrome
     def isPalindrome(self, s: str) -> bool:

@@ -1,6 +1,6 @@
 from neetcode_all import Solution
 
-inp = input("Enter: ")
+inp = input("NeetCode: ")
 sol = Solution()
 listo = inp
 # print(listo)
