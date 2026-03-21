@@ -187,3 +187,31 @@ class Solution(object):
         for i in range(len(s) - 1, -1, -1):
             arr.append(s[i])
         return ' '.join(arr)
+
+    # 238. Product of Array Except Self
+    # Handshake AI project assessment on CodeSignal
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+
+        n = len(nums)
+        # print([1])
+        res = [1] * n
+        # print(res)
+        left_prod = 1
+        for i in range(n):
+            res[i] = left_prod
+            # print(res[i])
+            # print(nums[i])
+            left_prod *= nums[i]
+        right_prod = 1
+        print(res)
+        for i in range(n - 1, -1, -1):
+            res[i] *= right_prod
+            print(res[i])
+            print(nums[i])
+            right_prod *= nums[i]
+        print(res)
+        return res
